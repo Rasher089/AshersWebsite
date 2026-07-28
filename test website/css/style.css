@@ -1,0 +1,100 @@
+/* body { background-color: #5f0000; }*/
+body { background-image: linear-gradient(to Bottom, rgb(22, 22, 22), rgb(42, 42, 42)); }
+
+@view-transition {
+  navigation: auto;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 5px 5px rgb(46, 12, 12);
+  color: white;
+  font-size: 35px;
+  font-weight: heavy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+}
+
+
+
+.nav-bar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.nav-bar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.nav-bar li{
+    float: left;
+}
+
+
+
+h3 {
+  text-shadow: 2px 2px rgb(46, 12, 12);
+  color: yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.styledbtn {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000000;
+  background-color: #a5c200;
+  border: 2px solid #000000;
+  border-radius: 100px;
+  box-shadow: 0 9px #999;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.styledbtn:hover {
+  background-color: #788d00
+}
+.styledbtn:active {
+  background-color: #788d00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.carsonTitle {
+  color: lightgreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chipGif {
+  margin-top: 15px;
+  border-radius: 23%;
+}
+
+.about {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px
+}
+
+footer {
+  background-color: #313131;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
